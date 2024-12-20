@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+*{
+	border: 0px solid blueviolet;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+    font: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
+    nav {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+.ACCEUIL{ 
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#IMAGEFOND{
+    background:top / cover no-repeat url("Fond_acceuil.png");
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#BASELINE {
+    
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
